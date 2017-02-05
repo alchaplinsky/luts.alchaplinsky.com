@@ -1,6 +1,6 @@
 .row {
   overflow: hidden;
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 .col1of2 {
@@ -44,4 +44,22 @@
 }
 .slide .button:hover {
   background: rgba(0,0,0,.8);
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    overflow-y: scroll;
+    min-width: 330px;
+  }
+  .row .col1of2 {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .row .col1of2 .slide {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
 }
