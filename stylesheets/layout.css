@@ -22,11 +22,11 @@ body {
   height: 100%;
   color: #fff;
   background: rgba(0,0,0,0.6);
+  overflow: scroll;
 }
 
 .bg-container .hero {
   padding: 80px 0 10px;
-  overflow: scroll;
 }
 
 .presenter {
