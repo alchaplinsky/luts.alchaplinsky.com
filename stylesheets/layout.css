@@ -26,6 +26,7 @@ body {
 
 .bg-container .hero {
   padding: 80px 0 10px;
+  overflow: scroll;
 }
 
 .presenter {
