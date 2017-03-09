@@ -32,7 +32,7 @@ body {
 .presenter {
   color: #fff;
   background: #B078C1;
-  background: url('../images/cinematic_bg2.jpg');
+  background: url('../images/cinematic_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -46,7 +46,7 @@ body {
 
 .presenter.instagram {
   background: #FFC052;
-  background: url('../images/instagram_bg2.jpg');
+  background: url('../images/instagram_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
