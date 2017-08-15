@@ -1,0 +1,12 @@
+.row {
+  overflow: hidden;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.col1of2 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 20px;
+}

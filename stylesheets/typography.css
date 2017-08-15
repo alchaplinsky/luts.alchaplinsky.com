@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 body {
   font-size: 16px;
   line-height: 24px;
@@ -10,4 +12,8 @@ h2 {
 h3 {
   font-size: 18px;
   text-align: left;
+}
+
+small {
+  font-size: 14px;
 }

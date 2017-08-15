@@ -1,7 +1,9 @@
 @import 'normalize.css';
 @import 'typography.css';
+@import 'grids.css';
+
 @import 'layout.css';
-@import 'slide.css';
+@import 'navigation.css';
+@import 'teaser.css';
 @import 'buttons.css';
 @import 'before-after.css';
-@import 'arrows.css';

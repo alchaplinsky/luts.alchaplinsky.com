@@ -1,0 +1,41 @@
+.teaser {
+  position: relative;
+  height: 600px;
+  font-size: 20px;
+  text-shadow: 1px 2px 3px rgba(0,0,0,.2);
+  background: url("../images/background1.jpg") center center / cover no-repeat rgb(0, 0, 0);
+}
+.teaser.instagram {
+  background: url("../images/background2.jpg") center -240px / cover no-repeat rgb(0, 0, 0);
+}
+.teaser.cinematic {
+  background: url("../images/background3.jpg") center bottom / cover no-repeat rgb(0, 0, 0);
+}
+.teaser.vsco {
+  background: url("../images/background4.jpg") center center / cover no-repeat rgb(0, 0, 0);
+}
+.teaser .words {
+  font-family: 'Questrial';
+  position: absolute;
+  color: #fff;
+  max-width: 700px;
+  left: 50%;
+  top: 270px;
+  margin-left: -350px;
+  text-align: center;
+}
+
+.teaser .words h1 {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgba(0,0,0,.2)
+}
+
+.teaser .words small {
+  display: inline-block;
+  color: rgba(255,255,255,.7);
+  padding: 5px 0;
+}

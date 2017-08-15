@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body {
   margin: 0;
@@ -8,98 +8,66 @@ html, body {
 
 body {
   background: #fafafa;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.background {
-  height: 100%;
-  background: url("../images/background.jpg") center center / cover no-repeat fixed rgb(0, 0, 0);
-}
-
-.bg-container {
+.header {
   position: fixed;
   width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transition: background .2s ease;
+}
+
+.header.sticked {
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+
+.header.sticked a {
+  color: #333;
+}
+
+.logo {
+  font-family: 'Questrial';
+  display: inline-block;
   color: #fff;
-  background: rgba(0,0,0,0.6);
-  overflow: scroll;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.bg-container .hero {
-  padding: 80px 0 10px;
-}
-
-.presenter {
-  color: #fff;
-  background: #B078C1;
-  background: url('../images/cinematic_bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.bg-presenter {
-  height: 100%;
-  background: rgba(0,0,0,0.3);
-  position: relative;
-}
-
-.presenter.instagram {
-  background: #FFC052;
-  background: url('../images/instagram_bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.hero {
-  padding: 200px 0;
-}
-
-.hero h1 {
-  margin: 0 auto 30px auto;
-  font-weight: normal;
-  font-size: 42px;
-  line-height: 50px;
-}
-
-.hero h2 {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.6em;
-  color: rgba(255,255,255,.8);
-  margin-bottom: 60px;
-}
-
-.hero a:not(.button) {
-  color: rgba(255,255,255,.8);
-}
-
-.hero, .container {
-  max-width: 600px;
+.container {
+  max-width: 1024px;
+  padding: 0 20px;
   margin: 0 auto;
+}
+
+footer {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 40px 0;
   text-align: center;
+  color: #aaa;
+}
+
+footer.dark {
+  background: #81807a;
+  color: rgba(255,255,255,.7);
 }
 
 section {
-  padding: 30px 10px;
+  padding: 90px 10px;
 }
 
 section.shaded {
   background: #efefef;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
-}
-
-section.shaded .container {
-  max-width: 768px;
-}
-
-section.shaded .container img {
-  max-width: 100%;
-}
-
-.lut {
-  margin-bottom: 40px;
 }
 
 .promo {
@@ -118,10 +86,4 @@ section.shaded .container img {
 
 .promo .button {
   font-size: 16px;
-}
-
-.footer {
-  text-align: center;
-  font-size: 13px;
-  color: #999;
 }

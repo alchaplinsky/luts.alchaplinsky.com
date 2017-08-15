@@ -24,10 +24,6 @@
     <meta name="google-site-verification" content="h7UdFY4v6fXzL4sG2YnH9sVCjisX4ZGQZk3UaNiEnq0" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <script>
-      var host = "luts.alchaplinsky.pro";
-      if ((host == window.location.host) && (window.location.protocol != "https:")){
-        window.location.protocol = "https";
-      }
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -37,36 +33,80 @@
       ga('send', 'pageview');
 
     </script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheets/application.css" />
   </head>
   <body>
-    <div class="background">
-      <div class="bg-container">
-        <div class="hero">
-          <h1>LUTs for Color Grading</h1>
-          <h2>Make your video to look cinematic and original easily in seconds.</h2>
-        </div>
-        <div class="row">
-          <div class="col1of2">
-            <div class="slide">
-              <a href="/cinematic.html"><img src="images/cinematic_preview.jpg" alt=""></a>
-              <h2>Cinematic LUTs</h2>
-              <a href="https://sellfy.com/p/9xzc/" class="button">Get it now for $15</a>
-              <a href="/cinematic.html" class="button">Learn More</a>
-            </div>
-          </div>
-          <div class="col1of2">
-            <div class="slide">
-              <a href="/instagram.html"><img src="images/instagram_preview.jpg" alt=""></a>
-              <h2>Instagram filter LUTs</h2>
-              <a href="https://sellfy.com/p/2c6M/" class="button">Get it now for $15</a>
-              <a href="/instagram.html" class="button">Learn More</a>
-            </div>
-          </div>
-        </div>
+    <div class="header">
+      <div class="container">
+        <a href="/" class="logo">ALCHAPLINSKY</a>
+        <ul class="navigation">
+          <li><a href="/free.html">FREE LUTS</a></li>
+          <li><a href="/cinematic.html">CINEMATIC</a></li>
+          <li><a href="/instagram.html">INSTALUTS</a></li>
+          <li><a href="/vsco.html">VSCO</a></li>
+        </ul>
       </div>
     </div>
+    <div class="teaser">
+      <div class="words">
+        <h1>Color Grading LUTs Packs</h1>
+        <p>Make your video to look more and original easily in seconds.</p>
+        <br />
+        <a href="" class="button">Buy entire suite for $35</a>
+        <div><small>Save $14</small></div>
+      </div>
+    </div>
+    <section>
+      <div class="row">
+        <div class="col1of2">
+          <h2>Cinematic LUTs</h2>
+          <p>Make your footage look cinematic by applying one of 15 styles of color correction.</p>
+          </p>15 Cinematic LUTs for video color grading, compatible with Adobe Premiere Pro, After Effects, Speedgrade, Photoshop, Final Cut and more.</p>
+          <a href="/cinematic.html" class="button hollow">Learn More</a>
+          <a href="https://sellfy.com/p/9xzc/" class="button">Get it now for $15</a>
+        </div>
+        <div class="col1of2">
+          <a href="/cinematic.html"><img src="images/cinematic_preview.jpg" alt="" width="100%" /></a>
+        </div>
+      </div>
+    </section>
+    <section class="shaded">
+      <div class="row">
+        <div class="col1of2">
+          <a href="/instagram.html"><img src="images/instagram_preview.jpg" alt="" width="100%" ></a>
+        </div>
+        <div class="col1of2">
+          <h2>Insta LUTs</h2>
+          <p>Ever wanted to apply Instagram like filters to your video footage? Now you can!</p>
+          <p>15 Insta LUTs for video color grading, compatible with Adobe Premiere Pro, After Effects, Speedgrade, Photoshop, Final Cut and more.</p>
+          <a href="/instagram.html" class="button hollow">Learn More</a>
+          <a href="https://sellfy.com/p/2c6M/" class="button">Get it now for $15</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col1of2">
+          <h2>VSCO LUTs</h2>
+          <p>Creative set of VSCO filters for color grading your video footage.</p>
+          <p>Most popular VSCO filters are available for usage in Adobe Premiere Pro, After Effects, Speedgrade, Photoshop, Final Cut and more.</p>
+          <a href="/vsco.html" class="button hollow">Learn More</a>
+          <a href="https://sellfy.com/p/2c6M/" class="button">Get it now for $19</a>
+        </div>
+        <div class="col1of2">
+          <a href="/cinematic.html"><img src="images/vsco_preview.jpg" alt="" width="100%" ></a>
+        </div>
+      </div>
+    </section>
+    <footer class="dark">
+      <div class="container">
+        <div>Made with ♥ by Alex Chaplinsky</div>
+        <div>&copy; Copyright <span id="copyright-year"></span> alchaplinsky.pro</div>
+      </div>
+    </footer>
   </body>
+  <script type="text/javascript" src="javascripts/application.js"></script>
   <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {

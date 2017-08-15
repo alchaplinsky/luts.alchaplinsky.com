@@ -1,14 +1,23 @@
 .button {
   display: inline-block;
-  background: #fff;
-  padding: 15px 30px;
+  background: #0084B4;
+  padding: 12px 20px;
   text-decoration: none;
   font-size: 18px;
   border-radius: 2px;
-  color: #555;
+  color: #fff;
   cursor: pointer;
 }
-
+.button.hollow {
+  background: rgba(100,100,100,.05);
+  border: 1px solid #0084B4;
+  color: #0084B4;
+  margin-right: 10px;
+}
 .button:hover {
-  background: #f3f3f3;
+  background: #0097ce;
+}
+
+.button.hollow:hover {
+  background: rgba(100,100,100,.02);
 }

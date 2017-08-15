@@ -21,11 +21,8 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/before-after.js"></script>
     <script type="text/javascript" src="javascripts/activate.js"></script>
+    <script type="text/javascript" src="javascripts/application.js"></script>
     <script>
-      var host = "luts.alchaplinsky.pro";
-      if ((host == window.location.host) && (window.location.protocol != "https:")){
-        window.location.protocol = "https";
-      }
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -41,22 +38,23 @@
   	</style>
   </head>
   <body>
-    <div class="presenter">
-      <div class="bg-presenter">
-        <div class="hero">
-          <h1>Cinematic LUTs Pack</h1>
-          <h2>15 Cinematic LUTs for video color grading, compatible with Adobe Premiere Pro, After Effects, Speedgrade, Photoshop, Final Cut and more.</h2>
-          <a href="https://sellfy.com/p/9xzc/" class="button">Get it now for $15</a>
-          <p>or</p>
-          <a href="/instagram.html">Check out Instagram Filter LUTs</a>
-          <div>
-            <svg class="arrows">
-  						<path class="a1" d="M0 0 L20 15 L40 0"></path>
-  						<path class="a2" d="M0 20 L20 35 L40 20"></path>
-  						<path class="a3" d="M0 40 L20 55 L40 40"></path>
-  					</svg>
-          </div>
-        </div>
+    <div class="header">
+      <div class="container">
+        <a href="/" class="logo">ALCHAPLINSKY</a>
+        <ul class="navigation">
+          <li><a href="/free.html">FREE LUTS</a></li>
+          <li><a href="/cinematic.html">CINEMATIC</a></li>
+          <li><a href="/instagram.html">INSTALUTS</a></li>
+          <li><a href="/vsco.html">VSCO</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="teaser cinematic">
+      <div class="words">
+        <h1>Cinematic LUTs Pack</h1>
+        <p>15 Cinematic LUTs for video color grading, compatible with Adobe Premiere Pro, After Effects, Speedgrade, Photoshop, Final Cut and more.</p>
+        <br />
+        <a href="https://sellfy.com/p/9xzc/" class="button">Get it now for $15</a>
       </div>
     </div>
     <section id="howto">
@@ -181,10 +179,10 @@
       <h1>Get 15 Cinematic LUTs now</h1>
       <a href="https://sellfy.com/p/9xzc/" class="button">BUY NOW FOR ONLY $15</a>
     </div>
-    <section class="footer">
+    <footer>
       <div>Made with &#9829; by Alex Chaplinsky</div>
-      <div>&copy; Copyright 2017 alchaplinsky.pro</div>
-    </section>
+      <div>&copy; Copyright <span id="copyright-year"></span> alchaplinsky.pro</div>
+    </footer>
   </body>
   <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
