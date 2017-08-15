@@ -14,11 +14,16 @@
 .teaser.vsco {
   background: url("../images/background4.jpg") center center / cover no-repeat rgb(0, 0, 0);
 }
+.teaser.free {
+  background: url("../images/background5.jpg") center -100px / cover no-repeat rgb(0, 0, 0);
+}
+
 .teaser .words {
   font-family: 'Questrial';
   position: absolute;
   color: #fff;
   max-width: 700px;
+  width: 100%;
   left: 50%;
   top: 270px;
   margin-left: -350px;
