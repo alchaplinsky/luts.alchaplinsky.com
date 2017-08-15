@@ -2,14 +2,21 @@
   list-style: none;
   float: right;
   margin: 20px 0;
+  font-size: 14px;
+  font-family: 'Questrial';
+  letter-spacing: 3px;
 }
 
 .navigation li {
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .navigation li a {
   color: #fff;
   text-decoration: none;
+}
+
+.navigation a.current {
+  color: #FFC052;
 }
