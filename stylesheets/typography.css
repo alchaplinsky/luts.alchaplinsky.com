@@ -17,3 +17,10 @@ h3 {
 small {
   font-size: 14px;
 }
+
+.muted {
+  color: #777;
+}
+.by-center {
+  text-align: center;
+}

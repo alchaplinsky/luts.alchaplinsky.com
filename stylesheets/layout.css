@@ -87,3 +87,27 @@ section.shaded {
 .promo .button {
   font-size: 16px;
 }
+
+.poster {
+  position: relative;
+  background: url("../images/bg_editor.jpg") center center / cover no-repeat;
+  height: 800px;
+}
+
+.poster.instagram {
+  background: url("../images/bg2_editor.jpg") center center / cover no-repeat;
+}
+
+.poster .text {
+  position: absolute;
+  top: 80px;
+  left: 15%;
+  max-width: 320px;
+  color: #fff;
+}
+
+.poster h1 {
+  font-size: 36px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
