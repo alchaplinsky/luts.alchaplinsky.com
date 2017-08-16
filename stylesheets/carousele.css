@@ -24,7 +24,7 @@
   max-width: 100%;
   display: block;
   margin-bottom: 3px;
-  border: 2px solid transparent;
+  border: 2px solid #fff;
 }
 .carousele ul li:hover {
   color: #000;
