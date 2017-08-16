@@ -6,16 +6,16 @@
   background: url("../images/background1.jpg") center center / cover no-repeat rgb(0, 0, 0);
 }
 .teaser.instagram {
-  background: url("../images/background2.jpg") center -50px / cover no-repeat rgb(0, 0, 0);
+  background: url("../images/bg2.jpg") center -50px / cover no-repeat rgb(0, 0, 0);
 }
 .teaser.cinematic {
-  background: url("../images/background3.jpg") center bottom / cover no-repeat rgb(0, 0, 0);
+  background: url("../images/bg3.jpg") center bottom / cover no-repeat rgb(0, 0, 0);
 }
 .teaser.vsco {
-  background: url("../images/background4.jpg") center center / cover no-repeat rgb(0, 0, 0);
+  background: url("../images/bg4.jpg") center center / cover no-repeat rgb(0, 0, 0);
 }
 .teaser.free {
-  background: url("../images/background5.jpg") center -100px / cover no-repeat rgb(0, 0, 0);
+  background: url("../images/bg5.jpg") center -100px / cover no-repeat rgb(0, 0, 0);
 }
 
 .teaser .words {
