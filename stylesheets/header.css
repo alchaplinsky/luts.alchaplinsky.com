@@ -24,7 +24,6 @@
   font-weight: bold;
   letter-spacing: 3px;
   cursor: pointer;
-  margin-bottom: 10px;
   text-decoration: none;
 }
 
@@ -34,6 +33,7 @@
   }
   .header .logo {
     display: block;
+    margin-bottom: 10px;
   }
   .header .navigation {
     float: none;
