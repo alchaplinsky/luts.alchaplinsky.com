@@ -15,7 +15,7 @@
   background: url("../images/bg4.jpg") center center / cover no-repeat rgb(0, 0, 0);
 }
 .teaser.free {
-  background: url("../images/bg5.jpg") center -100px / cover no-repeat rgb(0, 0, 0);
+  background: url("../images/bg5.jpg") center center / cover no-repeat rgb(0, 0, 0);
 }
 
 .teaser .words {
@@ -40,7 +40,8 @@
   line-height: 1.4em;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 1px 2px 3px rgba(0,0,0,.2)
+  text-shadow: 1px 2px 3px rgba(0,0,0,.2);
+  margin-top: 0;
 }
 
 .teaser .words small {

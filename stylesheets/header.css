@@ -4,6 +4,7 @@
   top: 0;
   left: 0;
   z-index: 200;
+  padding: 20px 0;
   transition: background .2s ease;
 }
 
@@ -20,10 +21,10 @@
   font-family: 'Questrial';
   display: inline-block;
   color: #fff;
-  margin: 20px 0 0 0;
   font-weight: bold;
   letter-spacing: 3px;
   cursor: pointer;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 

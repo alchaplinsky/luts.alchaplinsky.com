@@ -2,7 +2,7 @@
   list-style: none;
   float: right;
   padding: 0;
-  margin: 20px 0;
+  margin: 0;
   font-size: 14px;
   font-family: 'Questrial';
   letter-spacing: 3px;
@@ -20,4 +20,19 @@
 
 .navigation a.current {
   color: #FFC052;
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    font-size: 12px;
+  }
+  .navigation li {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 413px) {
+  .navigation li {
+    margin-right: 5px;
+  }
 }

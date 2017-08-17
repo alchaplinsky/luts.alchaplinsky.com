@@ -29,3 +29,15 @@
 .prl {
   padding-right: 40px;
 }
+
+
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+  .col1of2, .col2of5, .col3of5 {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+}
