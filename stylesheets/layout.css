@@ -11,35 +11,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 200;
-  transition: background .2s ease;
-}
-
-.header.sticked {
-  background: #fff;
-  box-shadow: 0 3px 3px rgba(0,0,0,.1);
-}
-
-.header.sticked a {
-  color: #333;
-}
-
-.logo {
-  font-family: 'Questrial';
-  display: inline-block;
-  color: #fff;
-  margin: 20px 0 0 0;
-  font-weight: bold;
-  letter-spacing: 3px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .container {
   max-width: 1024px;
   padding: 0 20px;
@@ -79,6 +50,7 @@ section.shaded {
 .promo h1 {
   text-transform: uppercase;
   font-size: 30px;
+  line-height: 1.4em;
   margin-bottom: 30px;
   letter-spacing: 1px;
   color: #fff;
@@ -99,9 +71,8 @@ section.shaded {
 }
 
 .poster .text {
-  position: absolute;
-  top: 80px;
-  left: 15%;
+  position: relative;
+  top: 100px;
   max-width: 320px;
   color: #fff;
 }

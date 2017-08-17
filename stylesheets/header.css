@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transition: background .2s ease;
+}
+
+.header.sticked {
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+
+.header.sticked a {
+  color: #333;
+}
+
+.logo {
+  font-family: 'Questrial';
+  display: inline-block;
+  color: #fff;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header .logo {
+    display: block;
+  }
+  .header .navigation {
+    float: none;
+  }
+}

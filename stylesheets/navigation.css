@@ -1,6 +1,7 @@
 .navigation {
   list-style: none;
   float: right;
+  padding: 0;
   margin: 20px 0;
   font-size: 14px;
   font-family: 'Questrial';
@@ -8,7 +9,7 @@
 }
 
 .navigation li {
-  float: left;
+  display: inline-block;
   margin-right: 20px;
 }
 
