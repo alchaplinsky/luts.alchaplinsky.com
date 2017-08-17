@@ -82,3 +82,10 @@ section.shaded {
   line-height: 1.3em;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 10px;
+  }
+
+}
