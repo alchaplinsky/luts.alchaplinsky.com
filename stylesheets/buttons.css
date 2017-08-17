@@ -5,8 +5,13 @@
   text-decoration: none;
   font-size: 18px;
   border-radius: 2px;
-  color: #fff;
+  color: rgba(255,255,255,.9);
   cursor: pointer;
+}
+.button .price {
+  color: #fff;
+  margin-left: 4px;
+  font-weight: bold;
 }
 .button.hollow {
   background: rgba(100,100,100,.05);
