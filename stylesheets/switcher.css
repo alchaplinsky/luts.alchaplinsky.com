@@ -1,0 +1,17 @@
+.switcher {
+  padding: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+.switcher span {
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.switcher span.current {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}

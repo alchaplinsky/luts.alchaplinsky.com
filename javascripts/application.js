@@ -12,6 +12,22 @@ $(document).ready(function() {
     }
   })
 
+
+  if($('.switcher').length !== 0) {
+    var set = $('.switcher .current').data('set')
+    $('.carousele li[data-set]').hide()
+    $('.carousele li[data-set="'+set+'"]').show()
+
+    $('.switcher span').click(function(event) {
+      $('.switcher span').removeClass('current')
+      $(event.currentTarget).addClass('current')
+      var set = $(event.currentTarget).data('set')
+      $('.carousele li[data-set]').hide()
+      $('.carousele li[data-set="'+set+'"]').show()
+    })
+
+  }
+
   $('.carousele li').click(function(event) {
     var image = $('.preview img')
     $('.carousele li').removeClass('current')

@@ -43,12 +43,17 @@
 }
 
 @media (max-width: 768px) {
+  .switcher {
+    display: none;
+  }
+
   .preview {
     display: none;
   }
   .carousele ul li, .carousele.minimal ul li {
     width: 50%;
     padding-right: 0;
+    display: block!important;
   }
   .carousele ul li:nth-child(odd) {
     padding-right: 5px;
