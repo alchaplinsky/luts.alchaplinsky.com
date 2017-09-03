@@ -26,6 +26,15 @@ footer {
   color: #aaa;
 }
 
+footer a {
+  transition: color .2s ease;
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #777;
+}
+
 footer.dark {
   background: #81807a;
   color: rgba(255,255,255,.7);

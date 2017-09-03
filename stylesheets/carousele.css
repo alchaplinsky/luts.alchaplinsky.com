@@ -38,11 +38,15 @@
   border: 2px solid #FFC052;
 }
 
+.carousele.minimal ul li {
+  width: 8%;
+}
+
 @media (max-width: 768px) {
   .preview {
     display: none;
   }
-  .carousele ul li {
+  .carousele ul li, .carousele.minimal ul li {
     width: 50%;
     padding-right: 0;
   }
